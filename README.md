@@ -35,9 +35,37 @@ Web site oluşturma sistemi, https://www.wo-system.com alan adı ile web ortamı
 # Web Site Oluşturma Sistemi
 
 Kullanıcılar, sunulmuş olan web site iskelet şablonlarından birini seçtikten sonra web sitelerini oluşturmaya başlayabilmektedir. Şablon seçim ekranında bulunan Şekil 1.4.’de gösterilen web şablonlarından, yapılması istenen web sitenin genel görünümünü seçilmektedir. Şablon seçim ekranında ki her şablonun ayrıntılı tasarım ve düzen bilgisi mevcuttur. Bu bölüme ulaşmak için şablon seçim ekranında bir şablonun üzerine tıklanması ve sol altta çıkacak olan şablon ön izleme butonuna tıklanması gereklidir. Açılan bilgi penceresinde şablonun sabit bölümleri ve ekstra sayfa isteği durumlarında değişecek bölümler ile ilgili bilgiler verilmektedir. Çoklu veya tekli sayfa yapısına sahip web site oluşturmayı sağlayan çeşitli tasarımlarda şablonlar mevcuttur.
+<br>
+<img src="https://github.com/enesdongez/Content-Management-System/blob/master/WOS/Desing/Pictures/sablonlar.png" 
+  style="  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  "/><br>Şekil 1.4. Web site örnek iskelet şablonları<br>
 Şablon seçim ekranından istenilen şablon seçildikten sonra kullanıcı, seçtiği şablonun ön sayfa ayarlarını yapabileceği Şekil 1.5.’de gösterilen sayfaya yönlendirilmektedir. Açılan bu sayfada seçilen şablonun sayfada bulunacağı konumu, genel pencereye göre genişlik değeri ve arka planın renk veya resim ekleme işlemleri gerçekleştirilecektir. Bu değişimler yapılırken web sitenin anlık değişimini ekranın sol bölümünde bulunan web site görünümü için tasarladığımız simülasyon ekranında incelenebilecektir. 
+<br>
+<img src="https://github.com/enesdongez/Content-Management-System/blob/master/WOS/Desing/Pictures/NasilKullanilir/sablonsecim_duzenle.png" 
+  style="  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  "/><br>Şekil 1.5. Şablon ön ayar ekranı<br>
 İstenilen web site ön ayarlama işlemleri yapılırken geri alma işlemi ile kullanıcılar desteklenmiştir. Şekil 1.5.’de verilen ekranda bulunan simülasyonda kullanıcıların değiştirmek istedikleri bir bölüm olması halinde sıfırla butonu ile yapılan işlemler geri alınacaktır. Kullanıcının tarafından belirlenen ayarlar, açılacak olan editör sayfasında görüntülenmeyecektir. Ön ayar sayfasında yapılan işlemleri anlık olarak takip edebilmek için ön izleme sayfasına bakılması gerekmektedir.
 Seçilen web şablonunun tasarımı için editör sayfasına giriş yapan kullanıcı Şekil 1.6.’da verilen ekranın sol bölümünde boş iskelet şablonu görecektir. Şablonun web bileşeni eklenebilir bölümlerinin üzerinde “Tıkla ve Düzenle” etiketi bulunmaktadır. Tıkla ve düzenle yazan bölümlere tıkladıktan sonra eklenebilecek bileşenlerin ön izleme görselleri Şekil 1.6.’da gösterilen bileşenler sekmesinde listelenecektir. Şekil 1.7.’de gösterilen bileşen listesi arasından seçilen bileşenin üzerine tıkladıktan sonra aynı konumda o bileşen için Şekil 1.7.’de gösterilen ayarlar sekmesi açılacaktır. Ayarlar sekmesinde yapılacak ayarlar; bileşende bulunan resimlerin seçilip eklenmesi, resim boyutları, resim şekilleri, yazı ve başlık girişleri, yazı font ve boyut bilgileri ve arka plan renk bilgisi bulunabilmektedir. Ayar sekmesinde çoklu sayfa yapısına sahip web site oluşturmaya yarayan bileşenler için buton tasarımları da mevcuttur. 
+<br>
+<img src="https://github.com/enesdongez/Content-Management-System/blob/master/WOS/Desing/Pictures/NasilKullanilir/editor_ana.png" 
+  style="  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  "/><br>Şekil 1.6. Editör ana sayfa<br>
+  <br>
+<img src="https://github.com/enesdongez/Content-Management-System/blob/master/WOS/Desing/Pictures/NasilKullanilir/bilesenayar.png" 
+  style="  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  "/><br>Şekil 1.7. Editör ayar ve bileşenler sekmesi<br>
 Seçilen bölüme eklenilmek istenilen bileşen için gerekli ayarlamalar kullanıcı tarafından yapıldıktan sonra ekle butonuna basılması yeterlidir. Eklenmiş olan bileşenin editör sayfasında ki şablonda ve ön izleme sayfasında incelenebilecektir. Ön izleme sayfasında görünen web sitesi, işlem sonunda sahip olunacak web sitenin o anki halini temsil etmektedir. 
 Kullanıcı tarafından editör ekranında bulunan web şablonuna ekleme işlemleri sırasında bir değişiklik yapılmak istediğinde, değişim istenen bölüme tıklayıp Şekil 1.6.’da verilen ekranın sol üst bölümde bulunan “Geri Al” butonuna tıklaması gerekmektedir. Geri al butonu seçilmiş olan bölüme eklenmiş olan en son bileşenin kaldırılmasını sağlamaktadır. Çoklu bileşen eklenebilecek bölümler için de geri alma işlemi eklenen son bileşenin seçilen bölümden çıkarılması ile gerçekleştirilir. Eklenmiş ve çıkarılmak istenilen bileşenin altına daha sonra bileşen eklenmiş ise çıkarılmak istenilen bileşene kadar olan bileşenleri o bölümden kaldırılması gerekmektedir. 
 Editör sayfasında üst bölümde bulunan kılavuz çizgisi kaldırma butonu, editör sayfasında bulunan şablon bölümlerini belirtmek için kullandığımız kılavuz çizgilerinin kaldırılması için kullanılmaktadır. Kılavuz çizgilerini kaldırdıktan sonra editör sayfasında bulunan web sitenin, ön izleme sayfasına gerek duymadan son halinin incelenmesine yardımcı olacaktır.
@@ -48,11 +76,29 @@ Kullanıcı, editör sayfasında oluşturduğu web sitenin kaynak kodlarını al
 Kullanıcılar web bileşeni üretme sisteminde, web içeriklerinde kullanılabilecek bileşenler seçip, kendi ayarları ile optimize ettikten sonra kaynak kodunu üretebilecekler.
 Kullanıcı Şekil 1.8.’de sol bölümde bulunan kategorize edilmiş bileşen listesi içerisinden istediği bir bileşeni seçmek için üzerine tıklamalıdır. Seçilen bileşen için hazırlanmış olan ayar sayfası orta bölümde açılacaktır. Ayar sayfasında seçilmiş olan web bileşeni için çeşitli ayarlar mevcuttur. Ayar sayfasında yapılacak ayarlar; resim seçimi, seçilen resmin boyut ve tasarım ayarları, yazı girişleri, yazının boyut, font ve renk ayarları ve arka plan renk ayarları bulunabilmektedir. Ayar sayfasında sunulacak ayarları dolduran kullanıcı “Kaynak Kod” butonuna tıkladıktan sonra Şekil 1.8.’de verilen ekranın sağ bölümünde bulunan kaynak kodunuz bölümünde ki yazı editörü içerisine bileşenin kaynak kodu yazdırılacaktır. 
 Web bileşeni için kullanıcıya sunmuş olduğumuz kategoriler, bileşenlerin gelişmişlik seviyelerini göre sıralanmıştır. Birinci seviyede bulunan bileşenlerde resim ve yazı içerikleri bulunmaktadır. İkinci seviyede bulunan bileşenlerde kayan yazı, web bağlantılı linkler ve daha gelişmiş tasarımlar bulunmaktadır. Üçüncü seviyede ki bileşenler ise diğer iki seviyeye göre daha gelişmiş olup tasarımlar daha detaylıdır. Hazır içerikler bölümünde ise kullanıcılara web bağlantılı araçlar sunulmaktadır, örnek olarak hava durumu, döviz kuru dönüştürücü, haber bülten takibi gibi hazır eklentili bileşenler bulunmaktadır. 
+  <br>
+<img src="https://github.com/enesdongez/Content-Management-System/blob/master/WOS/Desing/Pictures/NasilKullanilir/editoruret.png" 
+  style="  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  "/><br>Şekil 1.8. Web bileşen üretme sistemi ana sayfa<br>
 
 # Canlı Destek
 
 Web site oluşturma sistemi içinde bulunan canlı destek bölümü, sistem içerisinde bir sorunla karşılaşan veya soru sormak isteyen kullanıcılar için tasarlandı. Canlı destek bölümüne bağlantı sağlayan kullanıcılar Şekil 1.9.’da sol tarafta bulunan kullanıcı ara yüzü ile mesaj gönderebilecektir. 
+ <br>
+<img src="https://github.com/enesdongez/Content-Management-System/blob/master/WOS/Desing/Pictures/NasilKullanilir/canlidestek.png" 
+  style="  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  "/><br>Şekil 1.9. Canlı destek kullanıcı ve yönetici sayfaları<br>
 Kullanıcıya sunulmuş olan mesaj bölümünden yazı girişi yapılabilmekte ve konuşma durumu üst pencereden takip edilebilmektedir. Canlı destek yönetici tarafının ara yüzü Şekil 1.9.’da sağ tarafta bulunan resimde görülmektedir. Yöneticilerin mesaj panelinden seçecekleri kişilerin mesajları, cevaplamaları için yanında ki pencerede açılacak ve kullanıcı ile yönetici iletişime geçebilecektir.
+ 
+ # Sonuç
 
+Web site oluşturma sistemi, kullanıcılara tek satır kod yazmadan kendi web sitelerini oluşturmayı ve web içeriklerinde kullanılmak üzere yine kod yazmadan oluşturabilecekleri bir bileşen üretme sistemi sunmaktadır. Proje amacına uygun geliştirilmiş olup kullanıcılara yaptıkları işlemler sonucunda bir ücret talep etmemektedir.
+Web site oluşturma sisteminde kendi web sitesini oluşturacak kullanıcıları çeşitli ve günümüz tasarımlarına uygun modeller sunulmaktadır. 
 
-
+# http://www.wo-system.com
