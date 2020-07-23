@@ -88,7 +88,7 @@ Web bileşeni için kullanıcıya sunmuş olduğumuz kategoriler, bileşenlerin 
 
 Web site oluşturma sistemi içinde bulunan canlı destek bölümü, sistem içerisinde bir sorunla karşılaşan veya soru sormak isteyen kullanıcılar için tasarlandı. Canlı destek bölümüne bağlantı sağlayan kullanıcılar Şekil 1.9.’da sol tarafta bulunan kullanıcı ara yüzü ile mesaj gönderebilecektir. 
  <br>  <br>
-<img src="https://github.com/enesdongez/Content-Management-System/blob/master/WOS/Desing/Pictures/NasilKullanilir/canlidestek.png" 
+<img src="https://github.com/enesdongez/Content-Management-System/blob/master/WOS/Desing/Pictures/canlidestek.png" 
   style="  
     display: block;
   margin-left: auto;
